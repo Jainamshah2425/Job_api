@@ -1,14 +1,20 @@
 ![image](https://github.com/user-attachments/assets/defd7178-c1b1-4813-a131-f56856b543bf)
 
 # Clone Repo
-git clone https://github.com/Jainamshah2425/Job_api.git
+git clone https://github.com/Jainamshah2425/Job_api.git   
+
 cd job_queue
+
 # Create Virtual environment
 python -m venv venv
+
 source venv/bin/activate  
+
 # Install dependencies
 pip install -r requirements.txt
+
 Start redis server(using docker or locally)
+
 # Terminal 1: Start API Server
 python app.py
 # Terminal 2: Start Worker
