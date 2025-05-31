@@ -3,7 +3,7 @@
 # Clone Repo
 git clone https://github.com/Jainamshah2425/Job_api.git   
 
-cd job_queue
+cd job_api
 
 # Create Virtual environment
 python -m venv venv
