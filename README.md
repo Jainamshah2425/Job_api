@@ -1,21 +1,5 @@
-┌─────────────┐    HTTP/REST    ┌─────────────┐    ┌─────────────┐
-│   Client    │ ──────────────► │ Flask API   │───►│  SQLite DB  │
-│             │                 │  (app.py)   │    │ (metadata)  │
-└─────────────┘                 └─────────────┘    └─────────────┘
-                                        │
-                                        │ Redis Protocol
-                                        ▼
-                                ┌─────────────┐
-                                │Redis Queue  │
-                                │(Priority)   │
-                                └─────────────┘
-                                        │
-                                        │ Poll/Process
-                                        ▼
-                                ┌─────────────┐
-                                │Job Worker   │
-                                │(worker.py)  │
-                                └─────────────┘
+![image](https://github.com/user-attachments/assets/defd7178-c1b1-4813-a131-f56856b543bf)
+
 
 git clone https://github.com/Jainamshah2425/Job_api.git
 cd job_queue
